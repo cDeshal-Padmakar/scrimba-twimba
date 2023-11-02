@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="border-right">
+                <nav>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                    <i class="fa-regular fa-user"></i>
+                </nav>
+            </header>
+            <main class="border-right">
+                <div class="hero">
+                    <div class="home border-bottom">
+                        <h3>&nbsp &nbspHome</h3>
+                    </div>
+                    <div class="tweet border-bottom">
+                        <div>
+                            <img src="./images/scrimbalogo.png">
+                        </div>
+                        <div class="flex-last-child">
+                            <textarea id="post-text" placeholder="What is happening?!"></textarea>
+                            <button id="post-btn">Post</button>
+                        </div>
+                    </div>
+                </div>
+                <section class="feed" id="feed"></section>
+            </main>
+        </div>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
