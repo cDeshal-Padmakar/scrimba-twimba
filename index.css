@@ -160,10 +160,14 @@ span:hover, span:active {
     padding-bottom: 0;
 }
 
-/* @media screen and (min-width: 800px)
+@media screen and (max-width: 800px)
 {
-    .container {
-        max-width: 650px;
-        margin: 0 auto;
+    header {
+        padding: 12px;
     }
-} */
+
+    nav {
+        font-size: 20px;
+        gap: 18px;
+    }
+}
