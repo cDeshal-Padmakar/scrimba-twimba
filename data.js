@@ -16,9 +16,7 @@ export let initialTweetsData = [
         profilePic: `./images/scrimbalogo.png`,
         likes: 102,
         retweets: 38,
-        tweetText: `iSeeTheCodeYouJustFound
-        AtYourWorkAndRaiseYou
-        TheCodeIFoundAtMyWork3YearsAgo`,
+        tweetText: `I see the code you just found at your work and raise you the code I found at my work 3 years ago`,
         replies: [],
         isLiked: false,
         isRetweeted: false,
